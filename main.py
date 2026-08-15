@@ -5,8 +5,8 @@ from fastapi import FastAPI, Request
 app = FastAPI()
 
 # --- METTEZ VOS CLÉS ICI ---
-TELEGRAM_TOKEN = "VOTRE_TOKEN_BOTFATHER"
-DIFY_API_KEY = "VOTRE_API_KEY_DIFY"
+TELEGRAM_TOKEN = "8738193505:AAERruYyCFDjW2Aot604Bk4iDQjlPXZHGKw"
+DIFY_API_KEY = "app...GWd01elEIs09jlTJvRPU"
 DIFY_API_URL = "https://dify.ai"
 
 @app.post("/webhook")
